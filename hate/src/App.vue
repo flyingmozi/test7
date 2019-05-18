@@ -14,10 +14,14 @@
 
 import topgirl from './components/topgirl'
 import hotgirl from './components/hotgirl'
+import axios from 'axios'
 
 export default {
   created() {
-    this.list = require('./list.json')
+    axios.post('/api').then(res=>{
+      console.log(res)
+      this.list = res.data
+    })
   },
   name: "App",
   components: {
