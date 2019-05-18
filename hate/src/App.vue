@@ -41,7 +41,6 @@ export default {
         this.num = num;
         this.price = price;
         this.linprice = linprice;
-        //console.log(this.num,this.price,this.linprice)
     }
   }
 };

@@ -36,7 +36,7 @@
         position: relative;
     }
     i{
-        font-size: 30px;
+        font-size: 30px;  
     }
     b{
         display: block;
